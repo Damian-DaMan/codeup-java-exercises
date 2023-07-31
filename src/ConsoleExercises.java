@@ -59,7 +59,7 @@ public class ConsoleExercises {
         System.out.println(area);
         double perimeter = (parsedLength * 2) + (parsedWidth * 2);
         System.out.println(perimeter);
-        System.out.printf("The %s of a rectangle is equal to the %s times the %s, and the %s of a rectangle is equal to 2 times the %s plus 2 times the %s.", area, parsedLength, parsedWidth, perimeter, parsedLength, parsedWidth);
+        System.out.printf("The area of the rectangle is %s, and the perimeter is %s", area, perimeter);
     }
 
 }
