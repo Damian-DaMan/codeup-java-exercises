@@ -94,27 +94,27 @@ public class ControlFlowExercises {
 //        System.out.println("Thank you for using this table!");
 
 //        Exercise #4: Convert given number grades into letter grades
-Scanner sc = new Scanner(System.in);
-boolean confirm;
-do {
-System.out.println("Enter a grade from 0 to 100");
-        int grade = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        boolean confirm;
+        do {
+            System.out.println("Enter a grade from 0 to 100");
+            int grade = sc.nextInt();
 //        System.out.println(grade);
-    if (grade >= 88) {
-        System.out.println(" you got an A");
-    } else if (grade >= 80) {
-        System.out.println(" you got a B");
-    } else if (grade >= 67) {
-        System.out.println(" you got a C");
-    } else if (grade >= 60) {
-        System.out.println(" you got a D");
-    } else if (grade <= 59) {
-        System.out.println(" you got an F");
-    }
-    System.out.println(" do you want to continue? [y/n]");
-    confirm = sc.next().equalsIgnoreCase("y");
+            if (grade >= 88) {
+                System.out.println(" you got an A");
+            } else if (grade >= 80) {
+                System.out.println(" you got a B");
+            } else if (grade >= 67) {
+                System.out.println(" you got a C");
+            } else if (grade >= 60) {
+                System.out.println(" you got a D");
+            } else if (grade <= 59) {
+                System.out.println(" you got an F");
+            }
+            System.out.println(" do you want to continue? [y/n]");
+            confirm = sc.next().equalsIgnoreCase("y");
 
-} while (confirm);
+        } while (confirm);
         System.out.println("end grading session");
     }
 }

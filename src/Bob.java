@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Bob {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         boolean confirm;
         Scanner sc = new Scanner(System.in);
@@ -26,52 +26,5 @@ public class Bob {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
 }
+
