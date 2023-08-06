@@ -16,8 +16,9 @@ public class MethodsExercises {
         timesTableLoop(number);
 
         // Exercise 2
-        int userInput = getInteger(1, 10);
-        System.out.println("Valid input: " + userInput);
+        int userInput = getInteger(1, 10); // mine
+        System.out.println("Valid input: " + userInput); // mine
+//        System.out.println("Your number is: " + getInteger(1,10));
 
         // Exercise 3
         do {
@@ -36,6 +37,15 @@ public class MethodsExercises {
                 break;
             }
         } while (true);
+
+
+        // Exercise#4
+//askUsertoRoll();
+
+
+
+
+
 
     }
 //    Exercise#1:
@@ -115,7 +125,27 @@ public class MethodsExercises {
 
         // Return the valid input
         return input;
-    }
+    } // mine
+    //walkthrough
+//    public static int getInteger(int min, int max) {
+//        Scanner scan = new Scanner(System.in);
+//        int input = 0;
+//
+//        do {
+//            System.out.println("Please enter an integer between 1 and 10");
+//            input = scan.nextInt();
+//
+//
+//        }while (!isInRange(input, min, max));
+//
+//        return input;
+//    }
+//
+//    public static boolean isInRange(int num, int min, int max) {
+//        return num <= max && >= min;
+//    }
+    // end of walkthrough for exercise2
+
 
     // Exercise#3
     public static long calculateFactorial(int number) {
@@ -137,7 +167,37 @@ public class MethodsExercises {
         return expression.toString();
     }
 
-    // Exercise#4:
+
+
+    // Exercise#4: walkthrough
+//    public static String rollDice(int userDiceRoll) {
+//        double diceRollA = Math.floor(Math.random() * userDiceRoll) + 1;
+//        double diceRollB = Math.floor(Math.random() * userDiceRoll) + 1;
+//        int output1 = (int) diceRollA;
+//        int output2 = (int) diceRollB;
+//        String completeRoll = output1 + " & " + output2;
+//        return completeRoll;
+//    }
+//
+//
+//public static void askUserToRoll() {
+//        Scanner scan = new Scanner(System.in);
+//    System.out.println("enter the number of sides fora a pair of dice: ");
+//    int userResponse = scan.nextInt();
+//    String rollResponse;
+//    do{
+//        System.out.println("");
+//    }
+//}
+
+    // Exercise#5:
+
+
+
+
+
+
+
 
 
 
