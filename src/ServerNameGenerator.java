@@ -31,13 +31,20 @@ public class ServerNameGenerator {
         };
 
 
-        for (int i = 0; i < 10; i++) {
-            String adjective = getRandomElement(adjectives);
-            String noun = getRandomElement(nouns);
-            System.out.println(adjective + " " + noun);
-        }
+        // Generate and display a random name
+        String adjective = getRandomElement(adjectives);
+        String noun = getRandomElement(nouns);
+        String generatedName = adjective + "-" + noun;
 
-    } // =========================================== END of Main
+        System.out.println("Generated Name: " + generatedName);
+    }
+
+    // =========================================== END of Main
+
+
+
+
+
 
     // method used to get the random index of the Strings[]'s,
     public static String getRandomElement(String[] array) {
