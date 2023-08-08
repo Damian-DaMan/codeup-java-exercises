@@ -24,6 +24,11 @@ public class ArraysExercises {
         for (Person person : people) {
             System.out.println(person.getName());
         }
+// to add a direct new person to the people array.
+        people = addPerson(people, new Person("Carrie"));
+        for(Person person : people) {
+            System.out.println(person.getName());
+        }
     }
 
     // 1.3
