@@ -2,16 +2,16 @@ package Shapes;
 
 public class ShapesTest {
     public static void main(String[] args) {
-//        Rectangle rectangle = new Rectangle(length: 6, width: 5);
-//        int area = box1.getArea();
-//        int perimeter = box1.getPerimeter();
-//        System.out.println(area);
-//        System.out.println(perimeter);
+        Measurable myShape; // Declare a variable of type Measurable
 
+        // Create instances of Rectangle and Square and assign them to myShape
+        myShape = new Rectangle(5, 10);
+        System.out.println("Rectangle Perimeter: " + myShape.getPerimeter());
+        System.out.println("Rectangle Area: " + myShape.getArea());
 
-        Rectangle box2 = new Square(5);
-       double perimeter = box2.getPerimeter();
-        double area = box2.getArea();
+        myShape = new Square(7);
+        System.out.println("Square Perimeter: " + myShape.getPerimeter());
+        System.out.println("Square Area: " + myShape.getArea());
 
     }
 }
