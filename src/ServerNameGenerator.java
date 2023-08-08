@@ -48,6 +48,7 @@ public class ServerNameGenerator {
 
     // method used to get the random index of the Strings[]'s,
     public static String getRandomElement(String[] array) {
+        // Random is a class built in java.
         Random random = new Random();
         int randomIndex = random.nextInt(array.length);
         return array[randomIndex];
