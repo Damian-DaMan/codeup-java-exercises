@@ -3,6 +3,8 @@ package grades;
 import java.util.ArrayList;
 
 public class Student {
+
+    // Instance Variables
     private String name;
     private ArrayList<Integer> grades;
 
@@ -36,15 +38,4 @@ public class Student {
         return (double) sum / grades.size();
     }
 
-//==================================================== MAIN =====================================
-
-    public static void main(String[] args) {
-        Student student = new Student("John");
-        student.addGrade(90);
-        student.addGrade(88);
-        student.addGrade(86);
-
-        System.out.println("Student: " + student.getName());
-        System.out.println("Average Grade: " + student.getGradeAverage());
-    }
 }

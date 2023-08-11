@@ -4,6 +4,8 @@ import util.Input;
 
 import java.util.HashMap;
 
+// you need to try and refacto the students to let it then be placed into a separate method, clearing the MUD in main here.
+
 public class GradesApplication {
     public static void main(String[] args) {
         HashMap<String, Student> students = new HashMap<>();
@@ -36,7 +38,7 @@ public class GradesApplication {
         while (true) {
             System.out.println("Welcome to the Super Smash Bros. Melee Student Info App!");
             System.out.println("GitHub Usernames:");
-
+// turn this for loop below to a separate method we can weave in.
             for (String username : students.keySet()) {
                 System.out.print("|" + username + "| ");
             }
